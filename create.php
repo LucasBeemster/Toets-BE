@@ -34,7 +34,7 @@ $sql = "INSERT INTO User (Id
 
   $statement->bindValue(':Merk', $_POST['merk'], PDO::PARAM_STR);
   $statement->bindValue(':Model', $_POST['model'], PDO::PARAM_STR);
-  $statement->bindValue(':Topsnelheid', $_POST['topsnelheid'], PDO::PARAM_STR);
+  $statement->bindValue(':Topsnelheid', $_POST['topsnelheid'], PDO::PARAM_INT);
   $statement->bindValue(':Prijs', $_POST['prijs'], PDO::PARAM_INT); 
 try {
     $statement->execute();
