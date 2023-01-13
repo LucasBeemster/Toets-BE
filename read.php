@@ -76,11 +76,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h3>Persoonsgegevens</h3>
+    <h3>De vijf duurste auto's ter wereld</h3>
 
-    <a href="index.php">
-        <input type="button" value="Nieuw record">
-    </a>
     <br>
     <br>
     <table border='1'>

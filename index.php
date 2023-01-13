@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" href="img/favicon (1).ico">
     <title>Document</title>
 </head>
 <body>
-<h1>PHP PDO CRUD</h1>    
+<h1>PHP PDO CRUD TOETS</h1>    
 
 <form action="create.php" method="post">
 

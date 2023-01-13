@@ -18,7 +18,7 @@ try{
 }
 
 
-$sql = "INSERT INTO User (Id
+$sql = "INSERT INTO DureAuto (Id
                          Merk
                          ,Model
                          ,Topsnelheid

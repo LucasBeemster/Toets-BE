@@ -2,5 +2,5 @@
 
 $dbHost = 'localhost';
 $dbName = 'php-pdo-crud-toets';
-$dbUser = 'lucas';
-$dbPass = 'iwQ2g7VGsD!T5Plz';
+$dbUser = 'Lucasd';
+$dbPass = 'nhgA0R*8!9dZ1sOV';
