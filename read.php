@@ -1,7 +1,5 @@
 <?php
- /**
-  * Maak een verbinding met de mysql-server en database
-  */
+ 
   require('config.php');
 
   $dsn = "mysql:host=$dbHost;dbname=$dbName;charset=UTF8";
@@ -17,9 +15,7 @@
     echo $e->getMessage();
   }
 
-/**
- * Maak een select query die alle records uit de tabel Persoon haalt
- */
+
   $sql = "SELECT Id
             ,Merk
             ,Model
@@ -27,10 +23,10 @@
             ,Prijs
              FROM DureAuto";
 
-  // Maak de sql-query gereed om te worden uitgevoerd op de database
+  
   $statement = $pdo->prepare($sql);
 
-  // Voer de sql-query uit op de database
+  
   try {
     $statement->execute();
 
@@ -41,8 +37,7 @@
   
   $result = $statement->fetchAll(PDO::FETCH_OBJ);
 
-  // Even checken wat we terugkrijgen
-  //    var_dump($result);
+  
 
   $rows = "";
   foreach ($result as $info) {
